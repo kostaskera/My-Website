@@ -1,0 +1,204 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #0e1116; /* Dark background */
+    color: #ffffff; /* Light text for contrast */
+}
+
+/* Header Styles */
+header {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 15px 30px;
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1abc9c; /* Accent color */
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1abc9c;
+}
+
+
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, rgba(0, 15, 30, 0.9), rgba(20, 128, 100, 0.8), rgba(80, 230, 150, 0.5));
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem; /* Adjust size for impact */
+    color: #ffffff; /* Base text color */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    letter-spacing: 1px; /* Slight spacing for elegance */
+    margin-bottom: 20px; /* Adds space below the heading */
+    text-align: center; /* Center the text */
+    font-weight: 600; /* Medium weight for readability */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.hero-content h1:hover {
+    color: #1abc9c; /* Change color on hover for interactivity */
+}
+
+
+.cta-button {
+    background: #1abc9c;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background: #16a085;
+    transform: scale(1.05);
+}
+
+
+/* Main Section Styles */
+main {
+    padding: 40px 20px;
+}
+
+section {
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Section Header Styles */
+h2 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 10px;
+}
+
+/* About Me Section Styles */
+#about-me {
+    margin: 20px 0; /* Spacing around the section */
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 10px;
+    padding: 20px; /* Inner padding for the content */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+#about-me h1 {
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+#about-me p {
+    margin-bottom: 15px; /* Space below each paragraph */
+    line-height: 1.6; /* Improved readability */
+}
+
+/* Skills Showcase Styles */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: #1e2125; /* Dark card background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Section */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #1abc9c;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #1abc9c;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0e1116;
+    color: #ffffff;
+}
+
